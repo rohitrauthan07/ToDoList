@@ -72,11 +72,11 @@
                             `);
                             $('#taskInput').val('');
                         } else {
-                            alert('Failed to add task. Please try again.');
+                            alert('Duplicate Task');
                         }
                     },
                     error: function (xhr) {
-                        alert('Failed to add task. Please try again.');
+                        alert('Duplicate Task');
                     }
                 });
             });
